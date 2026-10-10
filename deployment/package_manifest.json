@@ -63,7 +63,7 @@
     "deployment/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "deployment/build_companion.py": "d608238d89056892068607f81620f48787664a9f52fa96f51af0609805f5c510",
     "deployment/companion/public/app.js": "4c8ee1234133494a0dcc44327fb6adf5ae2b85478898f003f72d30dc7ea25b97",
-    "deployment/companion/public/config.js": "1ae941c427fd15e3e08e8cce55fc5e88ca47148cc69f177743ca908d0a815e9a",
+    "deployment/companion/public/config.js": "b6161df38553d3667b35c455a04c4ce68de56803eecbf69dc6d6eef7f7ead1ac",
     "deployment/companion/public/downloads/analysis-report.html": "b9497093c7ee9c909a9891d3edbfcc61610c7f9ef9bc519633ffbb0836b3d8d2",
     "deployment/companion/public/downloads/DATASET_GUIDE.md": "d014ff73b13f524c759f47ae3ea232b07204ac2000f74f20fc527eb22e42f9a9",
     "deployment/companion/public/downloads/executive_summary.pdf": "7bb69bd1af1c2c0d77e0de09078cf47c6c7c8be0308ad19089552a295e364565",
@@ -199,3 +199,4 @@
     "requirements.txt": "2e922242b839c1d5399da144858b149f156ffe56f59c969bf3d5710b24bc210f"
   }
 }
+
