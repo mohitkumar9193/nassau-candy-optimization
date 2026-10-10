@@ -1,0 +1,22 @@
+{
+  "source_population_checks": "passed",
+  "observed_financials_reconciled": true,
+  "conclusions_separate_observations_diagnostics_and_simulation": true,
+  "documents": {
+    "research_paper": {
+      "pages": 11,
+      "pdf_sha256": "48c2a8cec52d3182da7e12395b56e5c00f2d614d58ce60053584698afe8f61a5",
+      "editable_source": "research_paper.md",
+      "numeric_checks": "passed",
+      "every_page_visually_reviewed": true
+    },
+    "executive_summary": {
+      "pages": 2,
+      "pdf_sha256": "7bb69bd1af1c2c0d77e0de09078cf47c6c7c8be0308ad19089552a295e364565",
+      "editable_source": "executive_summary.md",
+      "numeric_checks": "passed",
+      "every_page_visually_reviewed": true
+    }
+  },
+  "inspection": "All 13 final pages inspected; unchanged final pages verified pixel-identical to prior inspected render"
+}

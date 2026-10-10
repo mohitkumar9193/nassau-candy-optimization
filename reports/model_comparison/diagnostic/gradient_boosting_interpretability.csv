@@ -1,0 +1,34 @@
+Transformed Feature,Training Impurity Importance
+categorical__Ship Mode_Standard Class,0.7775354646104152
+categorical__Ship Mode_Same Day,0.14248128237828925
+categorical__Ship Mode_Second Class,0.06527005415210323
+categorical__Ship Mode_First Class,0.006546411265601958
+numeric__Great Circle Distance Km,0.0032865346610236826
+numeric__missingindicator_Great Circle Distance Km,0.001684377545271314
+numeric__Order Month,0.0014276507091639814
+categorical__Region_Pacific,0.0004086372456967697
+categorical__Region_Interior,0.0003518689772125503
+numeric__Units,0.00034266209133530226
+categorical__Product ID_CHO-MIL-31000,0.0003200643080408846
+numeric__Order Weekday,0.00018164174816098848
+categorical__Product ID_OTH-KAZ-38000,0.00011298429036777323
+categorical__Product ID_CHO-TRI-54000,4.861220763954601e-05
+categorical__Region_Atlantic,1.0490788917757162e-06
+categorical__Product ID_OTH-GUM-21000,7.047307858505902e-07
+categorical__Product ID_CHO-SCR-58000,0.0
+categorical__Product ID_SUG-HAI-55000,0.0
+categorical__Product ID_SUG-FUN-75000,0.0
+categorical__Product ID_SUG-EVE-47000,0.0
+categorical__Product ID_OTH-LIC-15000,0.0
+categorical__Product ID_OTH-FIZ-56000,0.0
+categorical__Product ID_CHO-FUD-51000,0.0
+categorical__Product ID_CHO-NUT-13000,0.0
+categorical__Product ID_SUG-LAF-25000,0.0
+categorical__Assigned Factory_Wicked Chocy's,0.0
+categorical__Assigned Factory_The Other Factory,0.0
+categorical__Assigned Factory_Sugar Shack,0.0
+categorical__Assigned Factory_Secret Factory,0.0
+categorical__Assigned Factory_Lot's O' Nuts,0.0
+categorical__Product ID_SUG-SWE-91000,0.0
+categorical__Product ID_SUG-NER-92000,0.0
+categorical__Region_Gulf,0.0

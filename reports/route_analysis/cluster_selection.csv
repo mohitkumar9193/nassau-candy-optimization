@@ -1,0 +1,11 @@
+Cluster Set,K,Silhouette,Smallest Cluster Routes,Eligible
+G,2,0.348426,24,True
+G,3,0.401256,24,True
+G,4,0.388721,14,True
+G,5,0.383461,7,True
+G,6,0.382583,7,True
+D,2,0.473544,15,True
+D,3,0.394374,15,True
+D,4,0.427011,15,True
+D,5,0.457418,8,True
+D,6,0.465239,6,True

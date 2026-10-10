@@ -1,0 +1,42 @@
+{
+  "snapshot_date": "2026-10-10",
+  "rows": 10194,
+  "required_fields": 18,
+  "unique_products": 15,
+  "factories": 5,
+  "unique_order_id_values": 8549,
+  "repeated_order_id_rows": 1645,
+  "duplicate_row_id_rows": 0,
+  "exact_duplicate_rows": 0,
+  "missing_required_cells": {},
+  "gross_profit_reconciliation_failures": 0,
+  "division_reference_mismatch_rows": 6,
+  "order_date_range": [
+    "2021-01-03",
+    "2024-12-30"
+  ],
+  "ship_date_range": [
+    "2026-06-30",
+    "2030-06-28"
+  ],
+  "observed_date_interval_days_range": [
+    2000,
+    2011
+  ],
+  "suspect_date_interval_rows": 10194,
+  "eligible_for_lead_time_training_rows": 0,
+  "mapped_destination_rows": 9994,
+  "unmapped_destination_rows": 200,
+  "countries": {
+    "United States": 9994,
+    "Canada": 200
+  },
+  "sales_total": "141783.63",
+  "gross_profit_total": "93442.80",
+  "units_total": 38654,
+  "simulated_inputs_created": false,
+  "source_dates_modified": false,
+  "rows_removed": 0,
+  "screening_rule": "Intervals below 0 or above 60 days are suspect; future ship dates also excluded from historical training",
+  "historical_origin_limit": "Factory is assigned from a static product table; no observed alternative product-factory history"
+}

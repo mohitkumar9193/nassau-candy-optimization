@@ -1,0 +1,4 @@
+Model,Interpretability
+Linear Regression,Additive coefficients; numerical coefficients are per standardized feature unit. Product/factory collinearity prevents independent factory attribution.
+Random Forest,Nonlinear tree ensemble. Training impurity importance describes association and can favor high-cardinality inputs; it is not causal.
+Gradient Boosting,"Additive ensemble of shallow trees. More complex than linear regression; feature importance describes learned association, not factory effects."

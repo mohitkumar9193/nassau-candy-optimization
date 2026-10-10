@@ -1,0 +1,27 @@
+{
+  "selected_records": 10194,
+  "filters": {
+    "product": null,
+    "region": null,
+    "ship_mode": null
+  },
+  "products_compared": 15,
+  "factory_scenarios": 75,
+  "current_assignment_scenarios": 15,
+  "alternative_scenarios": 60,
+  "sensitivity_cases": 6075,
+  "cases_per_available_scenario": 81,
+  "alternative_scenarios_with_uncertain_factory_product_evidence": 60,
+  "base_case_positive_contribution_alternatives": 16,
+  "base_case_shorter_dispatch_alternatives": 36,
+  "nonnegative_contribution_in_all_tested_cases_alternatives": 0,
+  "verified_lead_time_prediction": false,
+  "uses_diagnostic_regression_model": false,
+  "source_date_offset_applied": 0,
+  "simulated_inputs_created": true,
+  "source_records_modified": false,
+  "profit_definition": "Sales minus source/current or assumed candidate manufacturing cost, assumed logistics and one-time reassignment cost; excludes other overheads",
+  "population": "Mapped orders only; Canadian unmapped orders excluded from scenario estimates",
+  "operational_feasibility_established": false,
+  "statistical_confidence_estimated": false
+}

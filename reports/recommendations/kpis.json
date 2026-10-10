@@ -1,0 +1,26 @@
+{
+  "modeled_lead_time_reduction_pct": 4.061882247971285,
+  "profit_impact_stability_pct": 66.66666666666666,
+  "scenario_confidence_score": 0.0,
+  "recommendation_coverage_pct": 33.333333333333336,
+  "verified_recommendation_coverage_pct": 0.0,
+  "evaluated_product_coverage_pct": 100.0,
+  "total_products": 15,
+  "proposed_reassignments": 5,
+  "keep_current_products": 10,
+  "products_without_eligible_option": 0,
+  "base_modeled_contribution_change": 977.68318727,
+  "sensitivity_min_portfolio_contribution_change": -4090.69360956,
+  "sensitivity_max_portfolio_contribution_change": 4066.0027808699997,
+  "joint_sensitivity_cases": 81,
+  "unverified_dispatch_dates": true,
+  "profit_stability_is_probability": false,
+  "confidence_is_probability": false,
+  "operational_recommendations_approved": false,
+  "settings": {
+    "speed_priority": 0.5,
+    "profit_priority": 0.5,
+    "top_n": 3,
+    "profit_policy": "nonnegative_base"
+  }
+}

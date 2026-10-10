@@ -1,0 +1,176 @@
+{
+  "is_simulated": true,
+  "operationally_approved": false,
+  "snapshot_scope": "Full mapped 2021\u20132024 replay; default 50/50 priority",
+  "kpis": {
+    "modeled_lead_time_reduction_pct": 4.061882247971285,
+    "profit_impact_stability_pct": 66.66666666666666,
+    "scenario_confidence_score": 0.0,
+    "recommendation_coverage_pct": 33.333333333333336,
+    "verified_recommendation_coverage_pct": 0.0,
+    "evaluated_product_coverage_pct": 100.0,
+    "total_products": 15,
+    "proposed_reassignments": 5,
+    "keep_current_products": 10,
+    "products_without_eligible_option": 0,
+    "base_modeled_contribution_change": 977.68318727,
+    "sensitivity_min_portfolio_contribution_change": -4090.69360956,
+    "sensitivity_max_portfolio_contribution_change": 4066.0027808699997,
+    "joint_sensitivity_cases": 81,
+    "unverified_dispatch_dates": true,
+    "profit_stability_is_probability": false,
+    "confidence_is_probability": false,
+    "operational_recommendations_approved": false,
+    "settings": {
+      "speed_priority": 0.5,
+      "profit_priority": 0.5,
+      "top_n": 3,
+      "profit_policy": "nonnegative_base"
+    }
+  },
+  "products": [
+    {
+      "id": "CHO-NUT-13000",
+      "name": "Wonka Bar - Nutty Crunch Surprise",
+      "current": "Lot's O' Nuts",
+      "selected": "Secret Factory",
+      "decision": "Investigate provisional reassignment",
+      "dispatch_reduction_pct": 5.26448632,
+      "contribution_change": 245.79354658
+    },
+    {
+      "id": "CHO-FUD-51000",
+      "name": "Wonka Bar - Fudge Mallows",
+      "current": "Lot's O' Nuts",
+      "selected": "Secret Factory",
+      "decision": "Investigate provisional reassignment",
+      "dispatch_reduction_pct": 5.01172462,
+      "contribution_change": 232.86603341
+    },
+    {
+      "id": "CHO-SCR-58000",
+      "name": "Wonka Bar - Scrumdiddlyumptious",
+      "current": "Lot's O' Nuts",
+      "selected": "Secret Factory",
+      "decision": "Investigate provisional reassignment",
+      "dispatch_reduction_pct": 5.05754867,
+      "contribution_change": 263.66363226
+    },
+    {
+      "id": "CHO-TRI-54000",
+      "name": "Wonka Bar - Triple Dazzle Caramel",
+      "current": "Wicked Chocy's",
+      "selected": "Secret Factory",
+      "decision": "Investigate provisional reassignment",
+      "dispatch_reduction_pct": 3.12404277,
+      "contribution_change": 125.36848691
+    },
+    {
+      "id": "CHO-MIL-31000",
+      "name": "Wonka Bar - Milk Chocolate",
+      "current": "Wicked Chocy's",
+      "selected": "Secret Factory",
+      "decision": "Investigate provisional reassignment",
+      "dispatch_reduction_pct": 2.80190387,
+      "contribution_change": 109.99148811
+    },
+    {
+      "id": "OTH-FIZ-56000",
+      "name": "Fizzy Lifting Drinks",
+      "current": "Sugar Shack",
+      "selected": "Sugar Shack",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "OTH-GUM-21000",
+      "name": "Wonka Gum",
+      "current": "Secret Factory",
+      "selected": "Secret Factory",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "OTH-KAZ-38000",
+      "name": "Kazookles",
+      "current": "The Other Factory",
+      "selected": "The Other Factory",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "OTH-LIC-15000",
+      "name": "Lickable Wallpaper",
+      "current": "Secret Factory",
+      "selected": "Secret Factory",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "SUG-EVE-47000",
+      "name": "Everlasting Gobstopper",
+      "current": "Secret Factory",
+      "selected": "Secret Factory",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "SUG-FUN-75000",
+      "name": "Fun Dip",
+      "current": "Sugar Shack",
+      "selected": "Sugar Shack",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "SUG-HAI-55000",
+      "name": "Hair Toffee",
+      "current": "The Other Factory",
+      "selected": "The Other Factory",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "SUG-LAF-25000",
+      "name": "Laffy Taffy",
+      "current": "Sugar Shack",
+      "selected": "Sugar Shack",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "SUG-NER-92000",
+      "name": "Nerds",
+      "current": "Sugar Shack",
+      "selected": "Sugar Shack",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    },
+    {
+      "id": "SUG-SWE-91000",
+      "name": "SweeTARTS",
+      "current": "Sugar Shack",
+      "selected": "Sugar Shack",
+      "decision": "Keep current assignment",
+      "dispatch_reduction_pct": 0.0,
+      "contribution_change": 0.0
+    }
+  ],
+  "source_sha256": {
+    "reports/eda/current_performance_report.html": "2d67eeda18d69d4a835055d72b500fd9c4d8956a834b01801c79664e23ceb692",
+    "reports/recommendations/recommendation_report.md": "cbbbc1e344d74905ae177f5fe146a98b41b117d96ea392ce375a6323bf3e2327",
+    "reports/recommendations/portfolio.csv": "c88d404099af9c36cd824c5a46ea68e42383644f45dbe6e8da44d6bdb08a8354",
+    "datasets/DATASET_GUIDE.md": "d014ff73b13f524c759f47ae3ea232b07204ac2000f74f20fc527eb22e42f9a9",
+    "reports/submission/research_paper.pdf": "48c2a8cec52d3182da7e12395b56e5c00f2d614d58ce60053584698afe8f61a5",
+    "reports/submission/executive_summary.pdf": "7bb69bd1af1c2c0d77e0de09078cf47c6c7c8be0308ad19089552a295e364565"
+  }
+}

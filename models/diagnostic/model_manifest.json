@@ -1,0 +1,14 @@
+{
+  "selected_model": "Linear Regression",
+  "diagnostic_only": true,
+  "operational_use_allowed": false,
+  "report": "reports\\model_comparison\\diagnostic",
+  "target": "Order To Shipment Lead Time Days",
+  "target_date_offset_applied": 0,
+  "versions": {
+    "scikit_learn": "1.9.1",
+    "pandas": "3.0.1",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  }
+}

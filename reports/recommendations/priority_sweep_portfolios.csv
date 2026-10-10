@@ -1,0 +1,76 @@
+Product ID,Product Name,Selected Scenario ID,Current Factory,Selected Factory,Decision,Operationally Supported,Ranking Score,Capacity Rechecked Jointly,Speed Priority
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,CHO-NUT-13000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.29174638,True,0.00000000
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,CHO-FUD-51000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.28120169,True,0.00000000
+CHO-SCR-58000,Wonka Bar - Scrumdiddlyumptious,CHO-SCR-58000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.27247009,True,0.00000000
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,CHO-TRI-54000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.11192645,True,0.00000000
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,CHO-MIL-31000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.10670813,True,0.00000000
+OTH-FIZ-56000,Fizzy Lifting Drinks,OTH-FIZ-56000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.00000000
+OTH-GUM-21000,Wonka Gum,OTH-GUM-21000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.00000000
+OTH-KAZ-38000,Kazookles,OTH-KAZ-38000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.00000000
+OTH-LIC-15000,Lickable Wallpaper,OTH-LIC-15000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.00000000
+SUG-EVE-47000,Everlasting Gobstopper,SUG-EVE-47000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.00000000
+SUG-FUN-75000,Fun Dip,SUG-FUN-75000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.00000000
+SUG-HAI-55000,Hair Toffee,SUG-HAI-55000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.00000000
+SUG-LAF-25000,Laffy Taffy,SUG-LAF-25000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.00000000
+SUG-NER-92000,Nerds,SUG-NER-92000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.00000000
+SUG-SWE-91000,SweeTARTS,SUG-SWE-91000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.00000000
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,CHO-NUT-13000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.34208861,True,0.25000000
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,CHO-FUD-51000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.32786105,True,0.25000000
+CHO-SCR-58000,Wonka Bar - Scrumdiddlyumptious,CHO-SCR-58000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.32245795,True,0.25000000
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,CHO-TRI-54000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.15278665,True,0.25000000
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,CHO-MIL-31000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.14081943,True,0.25000000
+OTH-FIZ-56000,Fizzy Lifting Drinks,OTH-FIZ-56000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.25000000
+OTH-GUM-21000,Wonka Gum,OTH-GUM-21000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.25000000
+OTH-KAZ-38000,Kazookles,OTH-KAZ-38000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.25000000
+OTH-LIC-15000,Lickable Wallpaper,OTH-LIC-15000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.25000000
+SUG-EVE-47000,Everlasting Gobstopper,SUG-EVE-47000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.25000000
+SUG-FUN-75000,Fun Dip,SUG-FUN-75000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.25000000
+SUG-HAI-55000,Hair Toffee,SUG-HAI-55000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.25000000
+SUG-LAF-25000,Laffy Taffy,SUG-LAF-25000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.25000000
+SUG-NER-92000,Nerds,SUG-NER-92000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.25000000
+SUG-SWE-91000,SweeTARTS,SUG-SWE-91000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.25000000
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,CHO-NUT-13000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.39243084,True,0.50000000
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,CHO-FUD-51000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.37452041,True,0.50000000
+CHO-SCR-58000,Wonka Bar - Scrumdiddlyumptious,CHO-SCR-58000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.37244581,True,0.50000000
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,CHO-TRI-54000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.19364685,True,0.50000000
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,CHO-MIL-31000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.17493074,True,0.50000000
+OTH-FIZ-56000,Fizzy Lifting Drinks,OTH-FIZ-56000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.50000000
+OTH-GUM-21000,Wonka Gum,OTH-GUM-21000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.50000000
+OTH-KAZ-38000,Kazookles,OTH-KAZ-38000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.50000000
+OTH-LIC-15000,Lickable Wallpaper,OTH-LIC-15000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.50000000
+SUG-EVE-47000,Everlasting Gobstopper,SUG-EVE-47000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.50000000
+SUG-FUN-75000,Fun Dip,SUG-FUN-75000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.50000000
+SUG-HAI-55000,Hair Toffee,SUG-HAI-55000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.50000000
+SUG-LAF-25000,Laffy Taffy,SUG-LAF-25000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.50000000
+SUG-NER-92000,Nerds,SUG-NER-92000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.50000000
+SUG-SWE-91000,SweeTARTS,SUG-SWE-91000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.50000000
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,CHO-NUT-13000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.44277307,True,0.75000000
+CHO-SCR-58000,Wonka Bar - Scrumdiddlyumptious,CHO-SCR-58000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.42243367,True,0.75000000
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,CHO-FUD-51000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.42117977,True,0.75000000
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,CHO-TRI-54000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.23450704,True,0.75000000
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,CHO-MIL-31000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.20904204,True,0.75000000
+OTH-FIZ-56000,Fizzy Lifting Drinks,OTH-FIZ-56000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.75000000
+OTH-GUM-21000,Wonka Gum,OTH-GUM-21000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.75000000
+OTH-KAZ-38000,Kazookles,OTH-KAZ-38000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.75000000
+OTH-LIC-15000,Lickable Wallpaper,OTH-LIC-15000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.75000000
+SUG-EVE-47000,Everlasting Gobstopper,SUG-EVE-47000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,0.75000000
+SUG-FUN-75000,Fun Dip,SUG-FUN-75000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.75000000
+SUG-HAI-55000,Hair Toffee,SUG-HAI-55000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,0.75000000
+SUG-LAF-25000,Laffy Taffy,SUG-LAF-25000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.75000000
+SUG-NER-92000,Nerds,SUG-NER-92000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.75000000
+SUG-SWE-91000,SweeTARTS,SUG-SWE-91000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,0.75000000
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,CHO-NUT-13000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.49311530,True,1.00000000
+CHO-SCR-58000,Wonka Bar - Scrumdiddlyumptious,CHO-SCR-58000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.47242153,True,1.00000000
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,CHO-FUD-51000-929e458b,Lot's O' Nuts,Secret Factory,Investigate provisional reassignment,False,0.46783913,True,1.00000000
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,CHO-TRI-54000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.27536724,True,1.00000000
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,CHO-MIL-31000-929e458b,Wicked Chocy's,Secret Factory,Investigate provisional reassignment,False,0.24315335,True,1.00000000
+OTH-FIZ-56000,Fizzy Lifting Drinks,OTH-FIZ-56000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,1.00000000
+OTH-GUM-21000,Wonka Gum,OTH-GUM-21000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,1.00000000
+OTH-KAZ-38000,Kazookles,OTH-KAZ-38000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,1.00000000
+OTH-LIC-15000,Lickable Wallpaper,OTH-LIC-15000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,1.00000000
+SUG-EVE-47000,Everlasting Gobstopper,SUG-EVE-47000-929e458b,Secret Factory,Secret Factory,Keep current assignment,False,0.00000000,True,1.00000000
+SUG-FUN-75000,Fun Dip,SUG-FUN-75000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,1.00000000
+SUG-HAI-55000,Hair Toffee,SUG-HAI-55000-c21b9ebf,The Other Factory,The Other Factory,Keep current assignment,False,0.00000000,True,1.00000000
+SUG-LAF-25000,Laffy Taffy,SUG-LAF-25000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,1.00000000
+SUG-NER-92000,Nerds,SUG-NER-92000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,1.00000000
+SUG-SWE-91000,SweeTARTS,SUG-SWE-91000-4a8436ef,Sugar Shack,Sugar Shack,Keep current assignment,False,0.00000000,True,1.00000000

@@ -1,0 +1,6 @@
+# Preserve original data and generated report bytes across Windows/Linux clones.
+# Source and presentation SHA-256 checks depend on exact bytes.
+* -text
+*.png binary
+*.joblib binary
+*.zip binary

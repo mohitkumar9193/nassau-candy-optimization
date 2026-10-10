@@ -1,0 +1,6 @@
+Scenario ID,Product ID,Current Factory,Candidate Factory,Region,Ship Mode,Mapped Records,Mapped Units,Current Weighted Great Circle Km,Candidate Weighted Great Circle Km,Current Modeled Dispatch Lead Days,Candidate Modeled Dispatch Lead Days,Is Simulated Estimate
+CHO-MIL-31000-d28291e4,CHO-MIL-31000,Wicked Chocy's,Lot's O' Nuts,Pacific,Standard Class,399,1658,3424.27690187,903.58680380,2.59068777,2.15586872,True
+CHO-MIL-31000-c45571b4,CHO-MIL-31000,Wicked Chocy's,Wicked Chocy's,Pacific,Standard Class,399,1658,3424.27690187,3424.27690187,2.59068777,2.59068777,True
+CHO-MIL-31000-4a8436ef,CHO-MIL-31000,Wicked Chocy's,Sugar Shack,Pacific,Standard Class,399,1658,3424.27690187,2183.36344730,2.59068777,2.37663019,True
+CHO-MIL-31000-929e458b,CHO-MIL-31000,Wicked Chocy's,Secret Factory,Pacific,Standard Class,399,1658,3424.27690187,2430.52117387,2.59068777,2.41926490,True
+CHO-MIL-31000-c21b9ebf,CHO-MIL-31000,Wicked Chocy's,The Other Factory,Pacific,Standard Class,399,1658,3424.27690187,2554.52480111,2.59068777,2.44065553,True

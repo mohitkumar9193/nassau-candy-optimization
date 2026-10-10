@@ -1,0 +1,66 @@
+Field,Group Field,Group,Sample Size,Assessment Status,Q1,Q3,IQR,Lower Fence,Upper Fence,Outlier Rows
+Sales,Product ID,CHO-FUD-51000,1818,assessed,7.2,18.0,10.8,-25.200000000000006,50.400000000000006,0
+Sales,Product ID,CHO-MIL-31000,2137,assessed,6.5,16.25,9.75,-22.75,45.5,0
+Sales,Product ID,CHO-NUT-13000,1810,assessed,6.98,17.45,10.469999999999999,-24.429999999999996,48.86,0
+Sales,Product ID,CHO-SCR-58000,2064,assessed,7.2,18.0,10.8,-25.200000000000006,50.400000000000006,0
+Sales,Product ID,CHO-TRI-54000,2015,assessed,7.5,18.75,11.25,-26.25,52.5,0
+Sales,Product ID,OTH-FIZ-56000,6,insufficient_sample,,,,,,0
+Sales,Product ID,OTH-GUM-21000,120,assessed,2.5,6.25,3.75,-8.75,17.5,0
+Sales,Product ID,OTH-KAZ-38000,96,assessed,6.5,16.25,9.75,-22.75,45.5,0
+Sales,Product ID,OTH-LIC-15000,94,assessed,40.0,100.0,60.0,-140.0,280.0,0
+Sales,Product ID,SUG-EVE-47000,3,insufficient_sample,,,,,,0
+Sales,Product ID,SUG-FUN-75000,3,insufficient_sample,,,,,,0
+Sales,Product ID,SUG-HAI-55000,4,insufficient_sample,,,,,,0
+Sales,Product ID,SUG-LAF-25000,10,insufficient_sample,,,,,,0
+Sales,Product ID,SUG-NER-92000,4,insufficient_sample,,,,,,0
+Sales,Product ID,SUG-SWE-91000,10,insufficient_sample,,,,,,0
+Units,Product ID,CHO-FUD-51000,1818,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,CHO-MIL-31000,2137,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,CHO-NUT-13000,1810,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,CHO-SCR-58000,2064,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,CHO-TRI-54000,2015,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,OTH-FIZ-56000,6,insufficient_sample,,,,,,0
+Units,Product ID,OTH-GUM-21000,120,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,OTH-KAZ-38000,96,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,OTH-LIC-15000,94,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Units,Product ID,SUG-EVE-47000,3,insufficient_sample,,,,,,0
+Units,Product ID,SUG-FUN-75000,3,insufficient_sample,,,,,,0
+Units,Product ID,SUG-HAI-55000,4,insufficient_sample,,,,,,0
+Units,Product ID,SUG-LAF-25000,10,insufficient_sample,,,,,,0
+Units,Product ID,SUG-NER-92000,4,insufficient_sample,,,,,,0
+Units,Product ID,SUG-SWE-91000,10,insufficient_sample,,,,,,0
+Gross Profit,Product ID,CHO-FUD-51000,1818,assessed,4.8,12.0,7.2,-16.8,33.6,0
+Gross Profit,Product ID,CHO-MIL-31000,2137,assessed,4.22,10.55,6.330000000000001,-14.770000000000003,29.540000000000003,0
+Gross Profit,Product ID,CHO-NUT-13000,1810,assessed,4.98,12.45,7.469999999999999,-17.429999999999996,34.86,0
+Gross Profit,Product ID,CHO-SCR-58000,2064,assessed,5.0,12.5,7.5,-17.5,35.0,0
+Gross Profit,Product ID,CHO-TRI-54000,2015,assessed,4.9,12.25,7.35,-17.15,34.3,0
+Gross Profit,Product ID,OTH-FIZ-56000,6,insufficient_sample,,,,,,0
+Gross Profit,Product ID,OTH-GUM-21000,120,assessed,1.3,3.25,1.95,-4.55,9.1,0
+Gross Profit,Product ID,OTH-KAZ-38000,96,assessed,0.5,1.25,0.75,-1.75,3.5,0
+Gross Profit,Product ID,OTH-LIC-15000,94,assessed,20.0,50.0,30.0,-70.0,140.0,0
+Gross Profit,Product ID,SUG-EVE-47000,3,insufficient_sample,,,,,,0
+Gross Profit,Product ID,SUG-FUN-75000,3,insufficient_sample,,,,,,0
+Gross Profit,Product ID,SUG-HAI-55000,4,insufficient_sample,,,,,,0
+Gross Profit,Product ID,SUG-LAF-25000,10,insufficient_sample,,,,,,0
+Gross Profit,Product ID,SUG-NER-92000,4,insufficient_sample,,,,,,0
+Gross Profit,Product ID,SUG-SWE-91000,10,insufficient_sample,,,,,,0
+Cost,Product ID,CHO-FUD-51000,1818,assessed,2.4,6.0,3.6,-8.4,16.8,0
+Cost,Product ID,CHO-MIL-31000,2137,assessed,2.28,5.7,3.4200000000000004,-7.980000000000002,15.96,0
+Cost,Product ID,CHO-NUT-13000,1810,assessed,2.0,5.0,3.0,-7.0,14.0,0
+Cost,Product ID,CHO-SCR-58000,2064,assessed,2.2,5.5,3.3,-7.699999999999998,15.399999999999999,5
+Cost,Product ID,CHO-TRI-54000,2015,assessed,2.6,6.5,3.9,-9.1,18.2,0
+Cost,Product ID,OTH-FIZ-56000,6,insufficient_sample,,,,,,0
+Cost,Product ID,OTH-GUM-21000,120,assessed,1.2,3.0,1.8,-4.2,8.4,0
+Cost,Product ID,OTH-KAZ-38000,96,assessed,6.0,15.0,9.0,-21.0,42.0,0
+Cost,Product ID,OTH-LIC-15000,94,assessed,20.0,50.0,30.0,-70.0,140.0,0
+Cost,Product ID,SUG-EVE-47000,3,insufficient_sample,,,,,,0
+Cost,Product ID,SUG-FUN-75000,3,insufficient_sample,,,,,,0
+Cost,Product ID,SUG-HAI-55000,4,insufficient_sample,,,,,,0
+Cost,Product ID,SUG-LAF-25000,10,insufficient_sample,,,,,,0
+Cost,Product ID,SUG-NER-92000,4,insufficient_sample,,,,,,0
+Cost,Product ID,SUG-SWE-91000,10,insufficient_sample,,,,,,0
+Order To Shipment Lead Time Days,Ship Mode,First Class,1548,assessed,2002.0,2003.0,1.0,1999.0,2006.0,0
+Order To Shipment Lead Time Days,Ship Mode,Same Day,547,zero_iqr,2000.0,2000.0,0.0,2000.0,2000.0,0
+Order To Shipment Lead Time Days,Ship Mode,Second Class,1979,assessed,2002.0,2004.0,2.0,1996.0,2010.0,0
+Order To Shipment Lead Time Days,Ship Mode,Standard Class,6120,assessed,2004.0,2006.0,2.0,1998.0,2012.0,0
+Great Circle Distance Km,Country/Region,United States,9994,assessed,1106.318,3157.598,2051.2799999999997,-5047.521999999999,9311.437999999998,0

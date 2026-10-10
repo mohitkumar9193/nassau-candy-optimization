@@ -1,0 +1,30 @@
+{
+  "records": 10194,
+  "distinct_source_order_id_values": 8549,
+  "units": 38654,
+  "sales": 141783.63,
+  "manufacturing_cost": 48340.83,
+  "gross_profit": 93442.8,
+  "gross_margin_pct": 65.90521063679917,
+  "chocolate_units_share_pct": 96.43245201014125,
+  "chocolate_sales_share_pct": 92.88300772099007,
+  "mapped_records": 9994,
+  "unmapped_records": 200,
+  "mapped_record_coverage_pct": 98.0380616048656,
+  "mapped_unit_coverage_pct": 97.97951052931133,
+  "mean_great_circle_km": 1998.0763287972782,
+  "unit_weighted_great_circle_km": 2003.824571172075,
+  "p90_great_circle_km": 3459.931,
+  "suspect_lead_time_records": 10194,
+  "valid_historical_lead_time_records": 0,
+  "verified_mean_lead_time_days": null,
+  "currency": "source monetary units; currency unspecified in source dictionary",
+  "analysis_population": "primary cleaned data, including five flagged cost outliers",
+  "factory_basis": "static product assignments, not observed shipment origins",
+  "distance_basis": "great-circle distance to US ZIP centroid; not road distance",
+  "python_libraries": {
+    "pandas": "3.0.1",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "route_definition": [
+    "Product ID",
+    "Assigned Factory",
+    "Country/Region",
+    "Region",
+    "Ship Mode"
+  ],
+  "total_routes": 180,
+  "clustered_routes": 77,
+  "records_in_clustered_routes": 9623,
+  "unassigned_routes": 103,
+  "routes_without_coordinates": 26,
+  "sparse_routes_under_20_records": 101,
+  "geographic_features": [
+    "Unit Weighted Distance Km",
+    "Distance Std Km",
+    "Log Demand Units"
+  ],
+  "diagnostic_features": [
+    "Unit Weighted Distance Km",
+    "Diagnostic Mean Interval Days",
+    "Diagnostic Interval Std Days",
+    "Log Demand Units"
+  ],
+  "geographic_selected_k": 3,
+  "geographic_silhouette": 0.4012562286508369,
+  "diagnostic_selected_k": 2,
+  "diagnostic_silhouette": 0.4735444470249467,
+  "minimum_records": 20,
+  "minimum_coordinate_coverage_pct": 90.0,
+  "geographic_review_distance_cutoff_km": 2697.3925311720695,
+  "region_product_investigation_candidates": 7,
+  "persistent_long_distance_candidates": 5,
+  "valid_historical_lead_time_records": 0,
+  "confirmed_slow_detection_available": false,
+  "confirmed_slow_routes": 0,
+  "source_date_offset_applied": 0,
+  "simulated_inputs_created": false,
+  "cluster_seed_stability": [
+    {
+      "Cluster Set": "G",
+      "Seed": 7,
+      "Adjusted Rand Index": 1.0
+    },
+    {
+      "Cluster Set": "G",
+      "Seed": 101,
+      "Adjusted Rand Index": 1.0
+    },
+    {
+      "Cluster Set": "G",
+      "Seed": 2026,
+      "Adjusted Rand Index": 1.0
+    },
+    {
+      "Cluster Set": "D",
+      "Seed": 7,
+      "Adjusted Rand Index": 1.0
+    },
+    {
+      "Cluster Set": "D",
+      "Seed": 101,
+      "Adjusted Rand Index": 1.0
+    },
+    {
+      "Cluster Set": "D",
+      "Seed": 2026,
+      "Adjusted Rand Index": 1.0
+    }
+  ],
+  "limits": [
+    "No confirmed slow or congested routes can be identified from the current source dates",
+    "Distance measures great-circle proximity, not road mileage, cost or transit speed",
+    "Clusters are exploratory similarity groups, not optimized factory assignments",
+    "Sparse routes and missing coordinates remain unassigned rather than imputed into clusters"
+  ]
+}

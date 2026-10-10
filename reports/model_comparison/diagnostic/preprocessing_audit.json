@@ -1,0 +1,674 @@
+{
+  "Linear Regression": {
+    "validation_fit": {
+      "fitted_on_rows": 6519,
+      "numeric_features": [
+        "Units",
+        "Great Circle Distance Km",
+        "Order Month",
+        "Order Weekday"
+      ],
+      "imputer_medians": [
+        3.0,
+        1621.058,
+        8.0,
+        3.0
+      ],
+      "scaled_feature_means": [
+        3.791992636907501,
+        1972.6141771744133,
+        7.6594569719282095,
+        2.8923147722043256,
+        0.019021322288694586
+      ],
+      "scaled_feature_scales": [
+        2.2204042704767453,
+        1091.7809559834116,
+        3.217245162114054,
+        2.122437455661866,
+        0.136599822793019
+      ],
+      "missing_indicator_feature_indices": [
+        1
+      ],
+      "categorical_features": [
+        "Product ID",
+        "Assigned Factory",
+        "Region",
+        "Ship Mode"
+      ],
+      "training_categories": {
+        "Product ID": [
+          "CHO-FUD-51000",
+          "CHO-MIL-31000",
+          "CHO-NUT-13000",
+          "CHO-SCR-58000",
+          "CHO-TRI-54000",
+          "OTH-FIZ-56000",
+          "OTH-GUM-21000",
+          "OTH-KAZ-38000",
+          "OTH-LIC-15000",
+          "SUG-EVE-47000",
+          "SUG-FUN-75000",
+          "SUG-HAI-55000",
+          "SUG-LAF-25000",
+          "SUG-NER-92000",
+          "SUG-SWE-91000"
+        ],
+        "Assigned Factory": [
+          "Lot's O' Nuts",
+          "Secret Factory",
+          "Sugar Shack",
+          "The Other Factory",
+          "Wicked Chocy's"
+        ],
+        "Region": [
+          "Atlantic",
+          "Gulf",
+          "Interior",
+          "Pacific"
+        ],
+        "Ship Mode": [
+          "First Class",
+          "Same Day",
+          "Second Class",
+          "Standard Class"
+        ]
+      },
+      "transformed_features": [
+        "numeric__Units",
+        "numeric__Great Circle Distance Km",
+        "numeric__Order Month",
+        "numeric__Order Weekday",
+        "numeric__missingindicator_Great Circle Distance Km",
+        "categorical__Product ID_CHO-FUD-51000",
+        "categorical__Product ID_CHO-MIL-31000",
+        "categorical__Product ID_CHO-NUT-13000",
+        "categorical__Product ID_CHO-SCR-58000",
+        "categorical__Product ID_CHO-TRI-54000",
+        "categorical__Product ID_OTH-FIZ-56000",
+        "categorical__Product ID_OTH-GUM-21000",
+        "categorical__Product ID_OTH-KAZ-38000",
+        "categorical__Product ID_OTH-LIC-15000",
+        "categorical__Product ID_SUG-EVE-47000",
+        "categorical__Product ID_SUG-FUN-75000",
+        "categorical__Product ID_SUG-HAI-55000",
+        "categorical__Product ID_SUG-LAF-25000",
+        "categorical__Product ID_SUG-NER-92000",
+        "categorical__Product ID_SUG-SWE-91000",
+        "categorical__Assigned Factory_Lot's O' Nuts",
+        "categorical__Assigned Factory_Secret Factory",
+        "categorical__Assigned Factory_Sugar Shack",
+        "categorical__Assigned Factory_The Other Factory",
+        "categorical__Assigned Factory_Wicked Chocy's",
+        "categorical__Region_Atlantic",
+        "categorical__Region_Gulf",
+        "categorical__Region_Interior",
+        "categorical__Region_Pacific",
+        "categorical__Ship Mode_First Class",
+        "categorical__Ship Mode_Same Day",
+        "categorical__Ship Mode_Second Class",
+        "categorical__Ship Mode_Standard Class"
+      ]
+    },
+    "final_pretest_fit": {
+      "fitted_on_rows": 8151,
+      "numeric_features": [
+        "Units",
+        "Great Circle Distance Km",
+        "Order Month",
+        "Order Weekday"
+      ],
+      "imputer_medians": [
+        3.0,
+        1655.869,
+        7.0,
+        2.0
+      ],
+      "scaled_feature_means": [
+        3.786161207213839,
+        1977.8853456017666,
+        7.238743712427923,
+        2.8768249294565083,
+        0.019261440314071895
+      ],
+      "scaled_feature_scales": [
+        2.2162635654201583,
+        1093.4434399567783,
+        3.3724985001744217,
+        2.1387387495298635,
+        0.13744248699401265
+      ],
+      "missing_indicator_feature_indices": [
+        1
+      ],
+      "categorical_features": [
+        "Product ID",
+        "Assigned Factory",
+        "Region",
+        "Ship Mode"
+      ],
+      "training_categories": {
+        "Product ID": [
+          "CHO-FUD-51000",
+          "CHO-MIL-31000",
+          "CHO-NUT-13000",
+          "CHO-SCR-58000",
+          "CHO-TRI-54000",
+          "OTH-FIZ-56000",
+          "OTH-GUM-21000",
+          "OTH-KAZ-38000",
+          "OTH-LIC-15000",
+          "SUG-EVE-47000",
+          "SUG-FUN-75000",
+          "SUG-HAI-55000",
+          "SUG-LAF-25000",
+          "SUG-NER-92000",
+          "SUG-SWE-91000"
+        ],
+        "Assigned Factory": [
+          "Lot's O' Nuts",
+          "Secret Factory",
+          "Sugar Shack",
+          "The Other Factory",
+          "Wicked Chocy's"
+        ],
+        "Region": [
+          "Atlantic",
+          "Gulf",
+          "Interior",
+          "Pacific"
+        ],
+        "Ship Mode": [
+          "First Class",
+          "Same Day",
+          "Second Class",
+          "Standard Class"
+        ]
+      },
+      "transformed_features": [
+        "numeric__Units",
+        "numeric__Great Circle Distance Km",
+        "numeric__Order Month",
+        "numeric__Order Weekday",
+        "numeric__missingindicator_Great Circle Distance Km",
+        "categorical__Product ID_CHO-FUD-51000",
+        "categorical__Product ID_CHO-MIL-31000",
+        "categorical__Product ID_CHO-NUT-13000",
+        "categorical__Product ID_CHO-SCR-58000",
+        "categorical__Product ID_CHO-TRI-54000",
+        "categorical__Product ID_OTH-FIZ-56000",
+        "categorical__Product ID_OTH-GUM-21000",
+        "categorical__Product ID_OTH-KAZ-38000",
+        "categorical__Product ID_OTH-LIC-15000",
+        "categorical__Product ID_SUG-EVE-47000",
+        "categorical__Product ID_SUG-FUN-75000",
+        "categorical__Product ID_SUG-HAI-55000",
+        "categorical__Product ID_SUG-LAF-25000",
+        "categorical__Product ID_SUG-NER-92000",
+        "categorical__Product ID_SUG-SWE-91000",
+        "categorical__Assigned Factory_Lot's O' Nuts",
+        "categorical__Assigned Factory_Secret Factory",
+        "categorical__Assigned Factory_Sugar Shack",
+        "categorical__Assigned Factory_The Other Factory",
+        "categorical__Assigned Factory_Wicked Chocy's",
+        "categorical__Region_Atlantic",
+        "categorical__Region_Gulf",
+        "categorical__Region_Interior",
+        "categorical__Region_Pacific",
+        "categorical__Ship Mode_First Class",
+        "categorical__Ship Mode_Same Day",
+        "categorical__Ship Mode_Second Class",
+        "categorical__Ship Mode_Standard Class"
+      ]
+    }
+  },
+  "Random Forest": {
+    "validation_fit": {
+      "fitted_on_rows": 6519,
+      "numeric_features": [
+        "Units",
+        "Great Circle Distance Km",
+        "Order Month",
+        "Order Weekday"
+      ],
+      "imputer_medians": [
+        3.0,
+        1621.058,
+        8.0,
+        3.0
+      ],
+      "scaled_feature_means": [
+        3.791992636907501,
+        1972.6141771744133,
+        7.6594569719282095,
+        2.8923147722043256,
+        0.019021322288694586
+      ],
+      "scaled_feature_scales": [
+        2.2204042704767453,
+        1091.7809559834116,
+        3.217245162114054,
+        2.122437455661866,
+        0.136599822793019
+      ],
+      "missing_indicator_feature_indices": [
+        1
+      ],
+      "categorical_features": [
+        "Product ID",
+        "Assigned Factory",
+        "Region",
+        "Ship Mode"
+      ],
+      "training_categories": {
+        "Product ID": [
+          "CHO-FUD-51000",
+          "CHO-MIL-31000",
+          "CHO-NUT-13000",
+          "CHO-SCR-58000",
+          "CHO-TRI-54000",
+          "OTH-FIZ-56000",
+          "OTH-GUM-21000",
+          "OTH-KAZ-38000",
+          "OTH-LIC-15000",
+          "SUG-EVE-47000",
+          "SUG-FUN-75000",
+          "SUG-HAI-55000",
+          "SUG-LAF-25000",
+          "SUG-NER-92000",
+          "SUG-SWE-91000"
+        ],
+        "Assigned Factory": [
+          "Lot's O' Nuts",
+          "Secret Factory",
+          "Sugar Shack",
+          "The Other Factory",
+          "Wicked Chocy's"
+        ],
+        "Region": [
+          "Atlantic",
+          "Gulf",
+          "Interior",
+          "Pacific"
+        ],
+        "Ship Mode": [
+          "First Class",
+          "Same Day",
+          "Second Class",
+          "Standard Class"
+        ]
+      },
+      "transformed_features": [
+        "numeric__Units",
+        "numeric__Great Circle Distance Km",
+        "numeric__Order Month",
+        "numeric__Order Weekday",
+        "numeric__missingindicator_Great Circle Distance Km",
+        "categorical__Product ID_CHO-FUD-51000",
+        "categorical__Product ID_CHO-MIL-31000",
+        "categorical__Product ID_CHO-NUT-13000",
+        "categorical__Product ID_CHO-SCR-58000",
+        "categorical__Product ID_CHO-TRI-54000",
+        "categorical__Product ID_OTH-FIZ-56000",
+        "categorical__Product ID_OTH-GUM-21000",
+        "categorical__Product ID_OTH-KAZ-38000",
+        "categorical__Product ID_OTH-LIC-15000",
+        "categorical__Product ID_SUG-EVE-47000",
+        "categorical__Product ID_SUG-FUN-75000",
+        "categorical__Product ID_SUG-HAI-55000",
+        "categorical__Product ID_SUG-LAF-25000",
+        "categorical__Product ID_SUG-NER-92000",
+        "categorical__Product ID_SUG-SWE-91000",
+        "categorical__Assigned Factory_Lot's O' Nuts",
+        "categorical__Assigned Factory_Secret Factory",
+        "categorical__Assigned Factory_Sugar Shack",
+        "categorical__Assigned Factory_The Other Factory",
+        "categorical__Assigned Factory_Wicked Chocy's",
+        "categorical__Region_Atlantic",
+        "categorical__Region_Gulf",
+        "categorical__Region_Interior",
+        "categorical__Region_Pacific",
+        "categorical__Ship Mode_First Class",
+        "categorical__Ship Mode_Same Day",
+        "categorical__Ship Mode_Second Class",
+        "categorical__Ship Mode_Standard Class"
+      ]
+    },
+    "final_pretest_fit": {
+      "fitted_on_rows": 8151,
+      "numeric_features": [
+        "Units",
+        "Great Circle Distance Km",
+        "Order Month",
+        "Order Weekday"
+      ],
+      "imputer_medians": [
+        3.0,
+        1655.869,
+        7.0,
+        2.0
+      ],
+      "scaled_feature_means": [
+        3.786161207213839,
+        1977.8853456017666,
+        7.238743712427923,
+        2.8768249294565083,
+        0.019261440314071895
+      ],
+      "scaled_feature_scales": [
+        2.2162635654201583,
+        1093.4434399567783,
+        3.3724985001744217,
+        2.1387387495298635,
+        0.13744248699401265
+      ],
+      "missing_indicator_feature_indices": [
+        1
+      ],
+      "categorical_features": [
+        "Product ID",
+        "Assigned Factory",
+        "Region",
+        "Ship Mode"
+      ],
+      "training_categories": {
+        "Product ID": [
+          "CHO-FUD-51000",
+          "CHO-MIL-31000",
+          "CHO-NUT-13000",
+          "CHO-SCR-58000",
+          "CHO-TRI-54000",
+          "OTH-FIZ-56000",
+          "OTH-GUM-21000",
+          "OTH-KAZ-38000",
+          "OTH-LIC-15000",
+          "SUG-EVE-47000",
+          "SUG-FUN-75000",
+          "SUG-HAI-55000",
+          "SUG-LAF-25000",
+          "SUG-NER-92000",
+          "SUG-SWE-91000"
+        ],
+        "Assigned Factory": [
+          "Lot's O' Nuts",
+          "Secret Factory",
+          "Sugar Shack",
+          "The Other Factory",
+          "Wicked Chocy's"
+        ],
+        "Region": [
+          "Atlantic",
+          "Gulf",
+          "Interior",
+          "Pacific"
+        ],
+        "Ship Mode": [
+          "First Class",
+          "Same Day",
+          "Second Class",
+          "Standard Class"
+        ]
+      },
+      "transformed_features": [
+        "numeric__Units",
+        "numeric__Great Circle Distance Km",
+        "numeric__Order Month",
+        "numeric__Order Weekday",
+        "numeric__missingindicator_Great Circle Distance Km",
+        "categorical__Product ID_CHO-FUD-51000",
+        "categorical__Product ID_CHO-MIL-31000",
+        "categorical__Product ID_CHO-NUT-13000",
+        "categorical__Product ID_CHO-SCR-58000",
+        "categorical__Product ID_CHO-TRI-54000",
+        "categorical__Product ID_OTH-FIZ-56000",
+        "categorical__Product ID_OTH-GUM-21000",
+        "categorical__Product ID_OTH-KAZ-38000",
+        "categorical__Product ID_OTH-LIC-15000",
+        "categorical__Product ID_SUG-EVE-47000",
+        "categorical__Product ID_SUG-FUN-75000",
+        "categorical__Product ID_SUG-HAI-55000",
+        "categorical__Product ID_SUG-LAF-25000",
+        "categorical__Product ID_SUG-NER-92000",
+        "categorical__Product ID_SUG-SWE-91000",
+        "categorical__Assigned Factory_Lot's O' Nuts",
+        "categorical__Assigned Factory_Secret Factory",
+        "categorical__Assigned Factory_Sugar Shack",
+        "categorical__Assigned Factory_The Other Factory",
+        "categorical__Assigned Factory_Wicked Chocy's",
+        "categorical__Region_Atlantic",
+        "categorical__Region_Gulf",
+        "categorical__Region_Interior",
+        "categorical__Region_Pacific",
+        "categorical__Ship Mode_First Class",
+        "categorical__Ship Mode_Same Day",
+        "categorical__Ship Mode_Second Class",
+        "categorical__Ship Mode_Standard Class"
+      ]
+    }
+  },
+  "Gradient Boosting": {
+    "validation_fit": {
+      "fitted_on_rows": 6519,
+      "numeric_features": [
+        "Units",
+        "Great Circle Distance Km",
+        "Order Month",
+        "Order Weekday"
+      ],
+      "imputer_medians": [
+        3.0,
+        1621.058,
+        8.0,
+        3.0
+      ],
+      "scaled_feature_means": [
+        3.791992636907501,
+        1972.6141771744133,
+        7.6594569719282095,
+        2.8923147722043256,
+        0.019021322288694586
+      ],
+      "scaled_feature_scales": [
+        2.2204042704767453,
+        1091.7809559834116,
+        3.217245162114054,
+        2.122437455661866,
+        0.136599822793019
+      ],
+      "missing_indicator_feature_indices": [
+        1
+      ],
+      "categorical_features": [
+        "Product ID",
+        "Assigned Factory",
+        "Region",
+        "Ship Mode"
+      ],
+      "training_categories": {
+        "Product ID": [
+          "CHO-FUD-51000",
+          "CHO-MIL-31000",
+          "CHO-NUT-13000",
+          "CHO-SCR-58000",
+          "CHO-TRI-54000",
+          "OTH-FIZ-56000",
+          "OTH-GUM-21000",
+          "OTH-KAZ-38000",
+          "OTH-LIC-15000",
+          "SUG-EVE-47000",
+          "SUG-FUN-75000",
+          "SUG-HAI-55000",
+          "SUG-LAF-25000",
+          "SUG-NER-92000",
+          "SUG-SWE-91000"
+        ],
+        "Assigned Factory": [
+          "Lot's O' Nuts",
+          "Secret Factory",
+          "Sugar Shack",
+          "The Other Factory",
+          "Wicked Chocy's"
+        ],
+        "Region": [
+          "Atlantic",
+          "Gulf",
+          "Interior",
+          "Pacific"
+        ],
+        "Ship Mode": [
+          "First Class",
+          "Same Day",
+          "Second Class",
+          "Standard Class"
+        ]
+      },
+      "transformed_features": [
+        "numeric__Units",
+        "numeric__Great Circle Distance Km",
+        "numeric__Order Month",
+        "numeric__Order Weekday",
+        "numeric__missingindicator_Great Circle Distance Km",
+        "categorical__Product ID_CHO-FUD-51000",
+        "categorical__Product ID_CHO-MIL-31000",
+        "categorical__Product ID_CHO-NUT-13000",
+        "categorical__Product ID_CHO-SCR-58000",
+        "categorical__Product ID_CHO-TRI-54000",
+        "categorical__Product ID_OTH-FIZ-56000",
+        "categorical__Product ID_OTH-GUM-21000",
+        "categorical__Product ID_OTH-KAZ-38000",
+        "categorical__Product ID_OTH-LIC-15000",
+        "categorical__Product ID_SUG-EVE-47000",
+        "categorical__Product ID_SUG-FUN-75000",
+        "categorical__Product ID_SUG-HAI-55000",
+        "categorical__Product ID_SUG-LAF-25000",
+        "categorical__Product ID_SUG-NER-92000",
+        "categorical__Product ID_SUG-SWE-91000",
+        "categorical__Assigned Factory_Lot's O' Nuts",
+        "categorical__Assigned Factory_Secret Factory",
+        "categorical__Assigned Factory_Sugar Shack",
+        "categorical__Assigned Factory_The Other Factory",
+        "categorical__Assigned Factory_Wicked Chocy's",
+        "categorical__Region_Atlantic",
+        "categorical__Region_Gulf",
+        "categorical__Region_Interior",
+        "categorical__Region_Pacific",
+        "categorical__Ship Mode_First Class",
+        "categorical__Ship Mode_Same Day",
+        "categorical__Ship Mode_Second Class",
+        "categorical__Ship Mode_Standard Class"
+      ]
+    },
+    "final_pretest_fit": {
+      "fitted_on_rows": 8151,
+      "numeric_features": [
+        "Units",
+        "Great Circle Distance Km",
+        "Order Month",
+        "Order Weekday"
+      ],
+      "imputer_medians": [
+        3.0,
+        1655.869,
+        7.0,
+        2.0
+      ],
+      "scaled_feature_means": [
+        3.786161207213839,
+        1977.8853456017666,
+        7.238743712427923,
+        2.8768249294565083,
+        0.019261440314071895
+      ],
+      "scaled_feature_scales": [
+        2.2162635654201583,
+        1093.4434399567783,
+        3.3724985001744217,
+        2.1387387495298635,
+        0.13744248699401265
+      ],
+      "missing_indicator_feature_indices": [
+        1
+      ],
+      "categorical_features": [
+        "Product ID",
+        "Assigned Factory",
+        "Region",
+        "Ship Mode"
+      ],
+      "training_categories": {
+        "Product ID": [
+          "CHO-FUD-51000",
+          "CHO-MIL-31000",
+          "CHO-NUT-13000",
+          "CHO-SCR-58000",
+          "CHO-TRI-54000",
+          "OTH-FIZ-56000",
+          "OTH-GUM-21000",
+          "OTH-KAZ-38000",
+          "OTH-LIC-15000",
+          "SUG-EVE-47000",
+          "SUG-FUN-75000",
+          "SUG-HAI-55000",
+          "SUG-LAF-25000",
+          "SUG-NER-92000",
+          "SUG-SWE-91000"
+        ],
+        "Assigned Factory": [
+          "Lot's O' Nuts",
+          "Secret Factory",
+          "Sugar Shack",
+          "The Other Factory",
+          "Wicked Chocy's"
+        ],
+        "Region": [
+          "Atlantic",
+          "Gulf",
+          "Interior",
+          "Pacific"
+        ],
+        "Ship Mode": [
+          "First Class",
+          "Same Day",
+          "Second Class",
+          "Standard Class"
+        ]
+      },
+      "transformed_features": [
+        "numeric__Units",
+        "numeric__Great Circle Distance Km",
+        "numeric__Order Month",
+        "numeric__Order Weekday",
+        "numeric__missingindicator_Great Circle Distance Km",
+        "categorical__Product ID_CHO-FUD-51000",
+        "categorical__Product ID_CHO-MIL-31000",
+        "categorical__Product ID_CHO-NUT-13000",
+        "categorical__Product ID_CHO-SCR-58000",
+        "categorical__Product ID_CHO-TRI-54000",
+        "categorical__Product ID_OTH-FIZ-56000",
+        "categorical__Product ID_OTH-GUM-21000",
+        "categorical__Product ID_OTH-KAZ-38000",
+        "categorical__Product ID_OTH-LIC-15000",
+        "categorical__Product ID_SUG-EVE-47000",
+        "categorical__Product ID_SUG-FUN-75000",
+        "categorical__Product ID_SUG-HAI-55000",
+        "categorical__Product ID_SUG-LAF-25000",
+        "categorical__Product ID_SUG-NER-92000",
+        "categorical__Product ID_SUG-SWE-91000",
+        "categorical__Assigned Factory_Lot's O' Nuts",
+        "categorical__Assigned Factory_Secret Factory",
+        "categorical__Assigned Factory_Sugar Shack",
+        "categorical__Assigned Factory_The Other Factory",
+        "categorical__Assigned Factory_Wicked Chocy's",
+        "categorical__Region_Atlantic",
+        "categorical__Region_Gulf",
+        "categorical__Region_Interior",
+        "categorical__Region_Pacific",
+        "categorical__Ship Mode_First Class",
+        "categorical__Ship Mode_Same Day",
+        "categorical__Ship Mode_Second Class",
+        "categorical__Ship Mode_Standard Class"
+      ]
+    }
+  }
+}

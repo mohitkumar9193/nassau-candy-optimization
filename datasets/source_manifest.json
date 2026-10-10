@@ -1,0 +1,39 @@
+{
+  "retrieved_on": "2026-10-10",
+  "publisher": "Maven Analytics",
+  "dataset_title": "US Candy Distributor",
+  "source_page": "https://mavenanalytics.io/data-playground/us-candy-distributor",
+  "download_url": "https://maven-datasets.s3.amazonaws.com/US+Candy+Distributor/US+Candy+Distributor.zip",
+  "archive_sha256": "ea088fc31cbbd628cda03432c30bd35c48f4bf6d09b4276fd7a312b65aa5a7d4",
+  "orders_license": "Public Domain, as stated on the publisher's dataset page",
+  "geography_attribution": "US ZIP coordinates: SimpleMaps, https://simplemaps.com/data/us-zips",
+  "geography_license_note": "SimpleMaps Basic data is CC BY 4.0; preserve attribution. This is the snapshot packaged by Maven, not the current ZIP release.",
+  "usage": "Public educational sample; not verified proprietary Nassau Candy operational records",
+  "raw_files": {
+    "Candy_Sales.csv": {
+      "sha256": "b22d51f5baceff5141a88753852cf698c0e66d76ae4b847b570dfa914cf15346",
+      "size_bytes": 1980044
+    },
+    "Candy_Products.csv": {
+      "sha256": "5d6feb9c4cfe4278302dbf80d9ef11ee41661711cefa249de70fa8aeebd09a9d",
+      "size_bytes": 1014
+    },
+    "Candy_Factories.csv": {
+      "sha256": "c5d759929f34b05c2a9a5977a154d9ecb63e6581f5fc512dda34a75ca71e5735",
+      "size_bytes": 210
+    },
+    "Candy_Targets.csv": {
+      "sha256": "52dc5127ceb8c1d834d56b53b8f586b64373911049eb74c58c22332be2f4c345",
+      "size_bytes": 59
+    },
+    "uszips.csv": {
+      "sha256": "41ffd9764fd237cd6f1df180fe213620f8db42885a88f98b88aa25a84a185a00",
+      "size_bytes": 6339233
+    },
+    "candy_distributor_data_dictionary.csv": {
+      "sha256": "5ab1f6d093f2dcf38981028d1b714edf9afa4438f152171e01aa490ad2fe3336",
+      "size_bytes": 6299
+    }
+  },
+  "simulated_inputs_created": false
+}

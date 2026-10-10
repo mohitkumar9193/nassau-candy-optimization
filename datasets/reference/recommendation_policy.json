@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "default_speed_priority": 0.5,
+  "default_top_n": 3,
+  "default_profit_policy": "nonnegative_base",
+  "speed_reference_reduction_pct": 10.0,
+  "profit_reference_change_pct": 5.0,
+  "profit_scale_floor_source_units": 100.0,
+  "stability_penalty_weight": 0.1,
+  "scope": "Provisional scenario ranking, not an operational optimization approval",
+  "notes": [
+    "Speed utility is modeled dispatch reduction percentage divided by 10, clipped to [-1,1]",
+    "Profit utility is modeled contribution change divided by max(5% of absolute baseline modeled contribution,100 source monetary units), clipped to [-1,1]",
+    "Score = speed_priority*speed_utility + (1-speed_priority)*profit_utility - 0.1*(1-profit_stability/100)",
+    "Default recommendations must preserve base-case modeled contribution; strict_all_cases requires preservation across every sensitivity case",
+    "Tradeoff mode can expose modeled contribution losses for investigation when the user explicitly chooses it",
+    "Unknown capacity/compatibility permits provisional investigation only; explicit restrictions block options",
+    "The capacity-aware portfolio is greedy, not a globally optimal assignment solution",
+    "Evidence confidence is a readiness score, not a probability or a statistical confidence interval"
+  ]
+}

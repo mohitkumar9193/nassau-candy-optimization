@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "scope": "sample_replay_2021_2024",
+  "capacity_definition": "Additional production units available beyond each factory's baseline, over the complete sample replay horizon; not units per day",
+  "factories": {
+    "Lot's O' Nuts": {"additional_capacity_units": null, "capacity_verified": false, "compatible_product_ids": null, "compatibility_verified": false, "source_reference": null},
+    "Wicked Chocy's": {"additional_capacity_units": null, "capacity_verified": false, "compatible_product_ids": null, "compatibility_verified": false, "source_reference": null},
+    "Sugar Shack": {"additional_capacity_units": null, "capacity_verified": false, "compatible_product_ids": null, "compatibility_verified": false, "source_reference": null},
+    "Secret Factory": {"additional_capacity_units": null, "capacity_verified": false, "compatible_product_ids": null, "compatibility_verified": false, "source_reference": null},
+    "The Other Factory": {"additional_capacity_units": null, "capacity_verified": false, "compatible_product_ids": null, "compatibility_verified": false, "source_reference": null}
+  },
+  "notes": [
+    "Null means unknown; zero capacity and an empty compatibility list are real restrictions",
+    "Supplied values are enforced even when unverified, but unverified constraints do not establish feasibility",
+    "Verified flags require a documented source_reference and a matching horizon",
+    "Each proposed whole-product move consumes Source Units, including unmapped demand, at the receiving factory",
+    "Origin capacity released by a move is reported but is not reused in this conservative single-pass portfolio",
+    "Current data has no verified operational capacity or compatibility inputs"
+  ]
+}

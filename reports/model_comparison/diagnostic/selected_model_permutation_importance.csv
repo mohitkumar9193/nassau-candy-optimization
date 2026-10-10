@@ -1,0 +1,9 @@
+Feature,Mean MAE Increase Days,Repeat Standard Deviation
+Ship Mode,0.98424244,0.02544690
+Great Circle Distance Km,0.00768190,0.00167592
+Assigned Factory,0.00420981,0.00149982
+Region,0.00140108,0.00082059
+Order Weekday,0.00025552,0.00032815
+Units,0.00001819,0.00002231
+Order Month,-0.00003564,0.00065696
+Product ID,-0.00079570,0.00118806

@@ -1,0 +1,138 @@
+{
+  "mode": "diagnostic",
+  "diagnostic_only": true,
+  "operational_model_created": false,
+  "target": "Order To Shipment Lead Time Days",
+  "target_source": "Unchanged source Ship Date minus Order Date",
+  "target_date_offset_applied": 0,
+  "selected_model": "Linear Regression",
+  "selection_basis": "Validation RMSE; prefer Linear Regression then Gradient Boosting then Random Forest within 5% of lowest validation RMSE",
+  "relative_rmse_tie_tolerance": 0.05,
+  "test_used_for_selection": false,
+  "numerical_features": [
+    "Units",
+    "Great Circle Distance Km",
+    "Order Month",
+    "Order Weekday"
+  ],
+  "categorical_features": [
+    "Product ID",
+    "Assigned Factory",
+    "Region",
+    "Ship Mode"
+  ],
+  "excluded_features": [
+    "Ship Date",
+    "Customer ID",
+    "Row ID",
+    "Order ID",
+    "Order To Shipment Lead Time Days",
+    "Lead Time Quality",
+    "Extreme Outlier",
+    "Eligible For Lead Time Training",
+    "Sales",
+    "Cost",
+    "Gross Profit"
+  ],
+  "split": {
+    "train": {
+      "rows": 6519,
+      "start": "2021-01-03",
+      "end": "2023-12-04",
+      "distinct_order_ids": 5459
+    },
+    "validation": {
+      "rows": 1632,
+      "start": "2023-12-05",
+      "end": "2024-07-17",
+      "distinct_order_ids": 1382
+    },
+    "test": {
+      "rows": 2043,
+      "start": "2024-07-18",
+      "end": "2024-12-30",
+      "distinct_order_ids": 1708
+    },
+    "test_cutoff": "2024-07-18",
+    "validation_cutoff": "2023-12-05",
+    "same_date_cross_partition": false,
+    "source_order_id_cross_partition": false
+  },
+  "validation_fit_rows": 6519,
+  "validation_training_outliers_removed": 0,
+  "final_fit_rows": 8151,
+  "final_training_outliers_removed": 0,
+  "holdout_rows_trimmed": 0,
+  "unknown_test_categories": {
+    "Product ID": [],
+    "Assigned Factory": [],
+    "Region": [],
+    "Ship Mode": []
+  },
+  "target_quality_valid_rows": 0,
+  "seed": 42,
+  "metrics": [
+    {
+      "Model": "Linear Regression",
+      "Evaluation": "Chronological validation",
+      "RMSE Days": 1.0306781878447933,
+      "MAE Days": 0.8463260057006674,
+      "R2": 0.6682659543314549
+    },
+    {
+      "Model": "Random Forest",
+      "Evaluation": "Chronological validation",
+      "RMSE Days": 1.052909977917535,
+      "MAE Days": 0.8691535321328271,
+      "R2": 0.6538005629109549
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Evaluation": "Chronological validation",
+      "RMSE Days": 1.0342715965105342,
+      "MAE Days": 0.8528528158840355,
+      "R2": 0.6659487732157121
+    },
+    {
+      "Model": "Linear Regression",
+      "Evaluation": "Untouched chronological test",
+      "RMSE Days": 0.9975656809574079,
+      "MAE Days": 0.8209694455166315,
+      "R2": 0.6906759842018511
+    },
+    {
+      "Model": "Random Forest",
+      "Evaluation": "Untouched chronological test",
+      "RMSE Days": 1.0041961682628777,
+      "MAE Days": 0.8280739462809054,
+      "R2": 0.6865503711147427
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Evaluation": "Untouched chronological test",
+      "RMSE Days": 0.9966493028379242,
+      "MAE Days": 0.8223935805610442,
+      "R2": 0.6912440221188285
+    },
+    {
+      "Model": "Training ship-mode mean (sanity baseline)",
+      "Evaluation": "Untouched chronological test",
+      "RMSE Days": 0.998661569393985,
+      "MAE Days": 0.813234585736773,
+      "R2": 0.6899959872523436
+    }
+  ],
+  "versions": {
+    "scikit_learn": "1.9.1",
+    "pandas": "3.0.1",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  },
+  "limits": [
+    "Source date anomaly prevents operational shipping claims",
+    "Each product has only one static factory; alternative-factory effects are not identifiable",
+    "ZIP-centroid great-circle distances are not road or delivery distances",
+    "Sparse product history limits generalization",
+    "Held-out accuracy does not validate suspect dates"
+  ]
+}

@@ -1,0 +1,6 @@
+modeled_lead_time_reduction_pct,profit_impact_stability_pct,scenario_confidence_score,recommendation_coverage_pct,verified_recommendation_coverage_pct,evaluated_product_coverage_pct,total_products,proposed_reassignments,keep_current_products,products_without_eligible_option,base_modeled_contribution_change,sensitivity_min_portfolio_contribution_change,sensitivity_max_portfolio_contribution_change,joint_sensitivity_cases,unverified_dispatch_dates,profit_stability_is_probability,confidence_is_probability,operational_recommendations_approved,Speed Priority
+4.06188225,66.66666667,0.00000000,33.33333333,0.00000000,100.00000000,15,5,10,0,977.68318727,-4090.69360956,4066.00278087,81,True,False,False,False,0.00000000
+4.06188225,66.66666667,0.00000000,33.33333333,0.00000000,100.00000000,15,5,10,0,977.68318727,-4090.69360956,4066.00278087,81,True,False,False,False,0.25000000
+4.06188225,66.66666667,0.00000000,33.33333333,0.00000000,100.00000000,15,5,10,0,977.68318727,-4090.69360956,4066.00278087,81,True,False,False,False,0.50000000
+4.06188225,66.66666667,0.00000000,33.33333333,0.00000000,100.00000000,15,5,10,0,977.68318727,-4090.69360956,4066.00278087,81,True,False,False,False,0.75000000
+4.06188225,66.66666667,0.00000000,33.33333333,0.00000000,100.00000000,15,5,10,0,977.68318727,-4090.69360956,4066.00278087,81,True,False,False,False,1.00000000

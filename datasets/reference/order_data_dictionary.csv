@@ -1,0 +1,19 @@
+Table,Field,Description
+Sales,Row ID,Unique row identifier
+Sales,Order ID,Unique order identifier
+Sales,Order Date,Date of order
+Sales,Ship Date,Date of shipment
+Sales,Ship Mode,Shipping method of order
+Sales,Customer ID,Unique customer identifier
+Sales,Country/Region,Country or region of customer
+Sales,City,City of customer
+Sales,State/Province,State/province of customer
+Sales,Postal Code,Postal code / zip code of customer
+Sales,Division,Product division
+Sales,Region,Region of customer
+Sales,Product ID,Unique product identifier
+Sales,Product Name,Product long name
+Sales,Sales,Total sales value of order
+Sales,Units,Total units of order
+Sales,Gross Profit,Gross profit of order ( Sales - Cost )
+Sales,Cost,Cost to manufacture

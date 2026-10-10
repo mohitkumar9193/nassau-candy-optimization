@@ -1,0 +1,20 @@
+Field,Group Field,Group,Rows,Lower Fence,Upper Fence,Assessed,Excluded Training Rows
+Units,Product ID,CHO-FUD-51000,1159,-7.0,14.0,True,0
+Units,Product ID,CHO-MIL-31000,1383,-7.0,14.0,True,0
+Units,Product ID,CHO-NUT-13000,1150,-7.0,14.0,True,0
+Units,Product ID,CHO-SCR-58000,1330,-7.0,14.0,True,0
+Units,Product ID,CHO-TRI-54000,1282,-7.0,14.0,True,0
+Units,Product ID,OTH-FIZ-56000,3,,,False,0
+Units,Product ID,OTH-GUM-21000,73,-7.0,14.0,True,0
+Units,Product ID,OTH-KAZ-38000,69,-7.0,14.0,True,0
+Units,Product ID,OTH-LIC-15000,49,-6.0,15.0,True,0
+Units,Product ID,SUG-EVE-47000,2,,,False,0
+Units,Product ID,SUG-FUN-75000,3,,,False,0
+Units,Product ID,SUG-HAI-55000,2,,,False,0
+Units,Product ID,SUG-LAF-25000,6,,,False,0
+Units,Product ID,SUG-NER-92000,2,,,False,0
+Units,Product ID,SUG-SWE-91000,6,,,False,0
+Order To Shipment Lead Time Days,Ship Mode,First Class,935,1999.0,2006.0,True,0
+Order To Shipment Lead Time Days,Ship Mode,Same Day,337,,,False,0
+Order To Shipment Lead Time Days,Ship Mode,Second Class,1256,1996.0,2010.0,True,0
+Order To Shipment Lead Time Days,Ship Mode,Standard Class,3991,1998.0,2012.0,True,0

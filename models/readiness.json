@@ -1,0 +1,8 @@
+{
+  "operational_training_allowed": false,
+  "total_rows": 10194,
+  "valid_historical_target_rows": 0,
+  "reason": "All targets must pass date-quality checks; current data has systematic suspect shipment dates",
+  "diagnostic_mode_requested": false,
+  "simulated_inputs_created": false
+}

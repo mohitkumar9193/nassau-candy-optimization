@@ -1,0 +1,8 @@
+Model,Evaluation,RMSE Days,MAE Days,R2
+Linear Regression,Chronological validation,1.03067819,0.84632601,0.66826595
+Random Forest,Chronological validation,1.05290998,0.86915353,0.65380056
+Gradient Boosting,Chronological validation,1.03427160,0.85285282,0.66594877
+Linear Regression,Untouched chronological test,0.99756568,0.82096945,0.69067598
+Random Forest,Untouched chronological test,1.00419617,0.82807395,0.68655037
+Gradient Boosting,Untouched chronological test,0.99664930,0.82239358,0.69124402
+Training ship-mode mean (sanity baseline),Untouched chronological test,0.99866157,0.81323459,0.68999599

@@ -1,0 +1,6 @@
+Cluster Set,Cluster,Routes,Records,Units,Mean Route Distance Km,Mean Distance Std Km,Diagnostic Mean Route Interval Days,Diagnostic Mean Interval Std Days,Median Route Units,Valid Historical Interval Records,Interpretation
+Geographic,G1,24,2749,10341,1106.382813,206.873516,2003.032646,0.831288,290.500000,0,Geographic similarity; speed unverified
+Geographic,G2,24,3123,11768,1464.569174,500.237667,2002.708742,0.825226,322.000000,0,Geographic similarity; speed unverified
+Geographic,G3,29,3751,14323,3154.681812,365.689744,2002.797742,0.812607,370.000000,0,Geographic similarity; speed unverified
+Diagnostic only,D1,62,9171,34823,1970.441233,353.949466,2003.520050,0.988810,377.000000,0,Unverified interval pattern; not operational performance
+Diagnostic only,D2,15,452,1609,2068.084250,375.386939,2000.045647,0.134381,101.000000,0,Unverified interval pattern; not operational performance

@@ -1,0 +1,15 @@
+{
+  "simulated_inputs_created": false,
+  "unavailable": [
+    "Verified order-to-shipment dates",
+    "Delivery dates and transit durations",
+    "Observed shipment-origin factories",
+    "Alternative product-factory outcome history",
+    "Factory capacities",
+    "Production compatibility",
+    "Shipping tariffs and actual logistics costs",
+    "Reassignment costs",
+    "Canadian destination coordinates"
+  ],
+  "policy": "Unavailable inputs are not zero. Any future demo assumptions must be stored separately, labeled simulated, and excluded from claims about real business performance."
+}

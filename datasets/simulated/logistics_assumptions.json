@@ -1,0 +1,41 @@
+{
+  "assumption_version": "1.0",
+  "is_simulated": true,
+  "purpose": "Educational scenario assumptions; not calibrated operational estimates",
+  "monetary_unit": "source monetary units; source currency is unspecified",
+  "demand_horizon": "Replay of mapped orders in the 2021-2024 sample; not a future forecast",
+  "planning_distance_multiplier": 1.15,
+  "handling_cost_per_record": 0.04,
+  "logistics_cost_per_unit": 0.03,
+  "distance_cost_per_unit_per_1000_km": 0.06,
+  "dispatch_coordination_days_per_1000_km": 0.15,
+  "one_time_reassignment_cost_per_product": 100.0,
+  "ship_modes": {
+    "Standard Class": {"cost_multiplier": 1.0, "dispatch_preparation_days": 1.25},
+    "Second Class": {"cost_multiplier": 1.2, "dispatch_preparation_days": 0.75},
+    "First Class": {"cost_multiplier": 1.55, "dispatch_preparation_days": 0.35},
+    "Same Day": {"cost_multiplier": 2.0, "dispatch_preparation_days": 0.05}
+  },
+  "factories": {
+    "Lot's O' Nuts": {"dispatch_preparation_days": 0.75, "alternative_manufacturing_cost_multiplier": 1.0, "capacity_units": null, "verified_compatible_products": null},
+    "Wicked Chocy's": {"dispatch_preparation_days": 0.75, "alternative_manufacturing_cost_multiplier": 1.0, "capacity_units": null, "verified_compatible_products": null},
+    "Sugar Shack": {"dispatch_preparation_days": 0.75, "alternative_manufacturing_cost_multiplier": 1.0, "capacity_units": null, "verified_compatible_products": null},
+    "Secret Factory": {"dispatch_preparation_days": 0.75, "alternative_manufacturing_cost_multiplier": 1.0, "capacity_units": null, "verified_compatible_products": null},
+    "The Other Factory": {"dispatch_preparation_days": 0.75, "alternative_manufacturing_cost_multiplier": 1.0, "capacity_units": null, "verified_compatible_products": null}
+  },
+  "sensitivity_grid": {
+    "distance_rate_multipliers": [0.75, 1.0, 1.5],
+    "alternative_manufacturing_multipliers": [0.95, 1.0, 1.1],
+    "setup_cost_multipliers": [0.5, 1.0, 2.0],
+    "dispatch_buffer_multipliers": [0.75, 1.0, 1.5]
+  },
+  "limitations": [
+    "Every numeric logistics and dispatch parameter is an explicit hypothetical assumption",
+    "Distance-dependent dispatch coordination is an assumed planning buffer before shipment, not vehicle transit time",
+    "The planning distance multiplier is a cost/planning proxy, not a measured road-route factor",
+    "Equal default factory costs and preparation times are neutral assumptions, not evidence of equivalent capability",
+    "Capacity and compatibility remain unknown; candidates are not approved or feasible assignments",
+    "Sensitivity ranges are assumption bounds, not statistical confidence intervals",
+    "No offset is applied to source shipment dates and no diagnostic regression model is used for operational estimates"
+  ]
+}

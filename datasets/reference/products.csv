@@ -1,0 +1,16 @@
+Product ID,Product Name,Division,Factory,Unit Price,Unit Cost,Source Product Name,Source Factory,Is Simulated
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,3.49,1,Wonka Bar - Nutty Crunch Surprise,Lot's O' Nuts,false
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,3.6,1.2,Wonka Bar - Fudge Mallows,Lot's O' Nuts,false
+CHO-SCR-58000,Wonka Bar - Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,3.6,1.1,Wonka Bar -Scrumdiddlyumptious,Lot's O' Nuts,false
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,Chocolate,Wicked Chocy's,3.25,1.14,Wonka Bar - Milk Chocolate,Wicked Choccy's,false
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Chocy's,3.75,1.3,Wonka Bar - Triple Dazzle Caramel,Wicked Choccy's,false
+SUG-LAF-25000,Laffy Taffy,Sugar,Sugar Shack,1.99,0.75,Laffy Taffy,Sugar Shack,false
+SUG-SWE-91000,SweeTARTS,Sugar,Sugar Shack,1.5,0.8,SweeTARTS,Sugar Shack,false
+SUG-NER-92000,Nerds,Sugar,Sugar Shack,1.5,0.8,Nerds,Sugar Shack,false
+SUG-FUN-75000,Fun Dip,Sugar,Sugar Shack,1.5,0.9,Fun Dip,Sugar Shack,false
+OTH-FIZ-56000,Fizzy Lifting Drinks,Other,Sugar Shack,3.75,1.5,Fizzy Lifting Drinks,Sugar Shack,false
+SUG-EVE-47000,Everlasting Gobstopper,Sugar,Secret Factory,10,2,Everlasting Gobstopper,Secret Factory,false
+SUG-HAI-55000,Hair Toffee,Sugar,The Other Factory,4.5,1,Hair Toffee,The Other Factory,false
+OTH-LIC-15000,Lickable Wallpaper,Other,Secret Factory,20,10,Lickable Wallpaper,Secret Factory,false
+OTH-GUM-21000,Wonka Gum,Other,Secret Factory,1.25,0.6,Wonka Gum,Secret Factory,false
+OTH-KAZ-38000,Kazookles,Other,The Other Factory,3.25,3,Kazookles,The Other Factory,false
